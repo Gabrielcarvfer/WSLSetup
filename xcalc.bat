@@ -1,0 +1,1 @@
+C:\runhidden.vbs bash -c "DISPLAY=:0 xcalc"
