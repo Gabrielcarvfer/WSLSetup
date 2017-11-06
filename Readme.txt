@@ -21,3 +21,4 @@ To do on your own:
 
 Installing with the script:
 6) Run the WSLBackgroundSetup.bat with administrator rights
+7) You should be able to run xcalc.bat
