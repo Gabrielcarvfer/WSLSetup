@@ -9,7 +9,7 @@ From now on you can do on your own or install with a script.
 
 To do on your own:
 6) To run GUI programs, you'll need to install VcxSrv https://sourceforge.net/projects/vcxsrv/files/latest/download
-7) To enable SSH to this machine, run the ssh_install.sh script
+7) To enable SSH to this machine, run the ssh_setup.sh script
 8) Copy runHidden.vbs to C:\ if you don't want consoles open while running GUI apps
 9) To run automatically the X11 server and SSHD every time you boot into Windows, 
 	you need to register a task for it (included in this repo as WSLBackground.xml)
