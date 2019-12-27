@@ -15,7 +15,7 @@ To do on your own:
 	you need to register a task for it (included in this repo as WSLBackground.xml)
 		Install using "schtasks /create /TN WSLBackground /XML .\WSLBackground.xml" (without the quotes)
 10) You can create .bat files as shortcuts to Linux X11 apps, 
-	with something like ' C:\runHidden.vbs bash -c "DISPLAY=:0 xcalc" '
+	with something like ' C:\runHidden.vbs bash -c "DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0 xcalc" ' for WSLv2 or ' C:\runHidden.vbs bash -c "DISPLAY=:0 xcalc" ' for WSLv1
 		You need to export the DISPLAY as the .bashrc is not read 
 			when launched directly from Windows bash.exe
 
